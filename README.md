@@ -40,7 +40,7 @@ USB to TTL (UART debugging)
 - Verify connection using openocd -f interface/stlink.cfg -f target/stm32f4x.cfg.
 - Compile the project using make (ARM-GCC toolchain).
 - Flash the generated .elf or .bin file using OpenOCD or STM32CubeProgrammer CLI.
-- Open serial terminal (e.g., MobaXterm, PuTTY) at 115200 baud, 8N1 on the USB-TTL port.
+- Open serial terminal (e.g., MobaXterm, PuTTY, Tera Term) at 115200 baud, 8N1 on the USB-TTL port.
 - Observe UART debug logs for GPIO state changes or circular buffer messages.
 - Press the button to trigger GPIO interrupt and check corresponding UART logs.
 - Toggle LED and confirm proper GPIO driver functionality.
