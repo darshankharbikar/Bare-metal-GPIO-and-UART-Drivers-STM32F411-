@@ -23,7 +23,8 @@ ST-Link V2 → STM32F411CEU6
 - SWCLK → SWCLK
 - GND → GND
 - 3.3V → 3.3V
- USB to TTL (UART debugging)
+
+USB to TTL (UART debugging)
 - TX (USB-TTL) → PA3 (USART2_RX)
 - RX (USB-TTL) → PA2 (USART2_TX)
 - GND (USB-TTL) → GND (STM32)
